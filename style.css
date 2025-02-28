@@ -1,0 +1,24 @@
+
+/* Selector de Clases */
+
+body {
+    background-color: rgb(9, 72, 114);
+}
+/*.titulo {
+    color:rgb(183, 82, 82);
+    text-align: center;
+    font-size: 40px;
+
+}
+/* Selector de Clases */
+.titulo_secundario h2, h3, h4,h5,h6 {
+    color:black;
+}
+  .titulo_secun {
+    background-color: rgb(234, 236, 246);
+    height: 30px;
+
+
+  }  
+
+
