@@ -1,24 +1,128 @@
-
-/* Selector de Clases */
-
-body {
-    background-color: rgb(9, 72, 114);
-}
-/*.titulo {
-    color:rgb(183, 82, 82);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    min-height: 10vh; 
+    background-color: rgb(37, 109, 173);
+  }
+  .header.img{
+    width: 90px;
+    margin: 15px;
+    object-fit: cover;
+  }
+  .contenedor_header img, h1{
+    display: inline-block;
+  }
+  .contenedor_header h1{
+    color: azure;
+    margin-left: 200px;
+   
+  }
+  nav{
+    background-color: rgb(165, 190, 221);
+    padding: 10px 500px;
+  }
+  .link{
+   display: inline-block;
+   text-decoration: none;
+   color: rgb(13, 98, 189);
+   font-size: 20px;
+   
+  }
+  .main{
+  min-height: 80vh;
+  background-color: rgb(248, 254, 243);
+  }
+  .banner{
+    background-color: rgb(37, 109, 173);
+    padding: 50px 0;
+  }
+  
+  .banner h2, .banner p{
     text-align: center;
-    font-size: 40px;
-
-}
-/* Selector de Clases */
-.titulo_secundario h2, h3, h4,h5,h6 {
-    color:black;
-}
-  .titulo_secun {
-    background-color: rgb(234, 236, 246);
-    height: 30px;
-
-
-  }  
-
+    margin: 15px;
+    color: azure;
+  }
+  .products h3{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(37, 109, 173);
+    padding: 0px 200px;
+  }
+  .product{
+    display: inline-block;
+    background-color: rgb(165, 190, 221);
+    width: 250px;
+    border: 1px solid black;
+    margin: 30px;
+  }
+  .product img{ 
+    width: 180px;
+    object-fit: cover;
+    margin: 40px;
+  }
+  .product a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(37, 109, 173);
+    color: white;
+    width: 100px;
+    padding: 8px 1px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 70px;
+  }
+  .product h4, .product p, .product h5{
+    text-align: center;
+    margin: 8px;
+  }
+  .categories h3{
+    text-align: center;
+    color:  rgb(37, 109, 173);
+    padding: 10px;
+  }
+  .category{
+    display: inline-block;
+    margin: 5px;
+    }
+  .category img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+  
+  .texto h2, .texto p{
+  text-align: center;
+  margin: 30px;
+  }
+  .nomb  img{
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+  .nomb, .nomb h3, .nomb h4{
+   text-align: center;
+   margin: 8px;
+  }
+  .nombre h3{
+    text-align: center;
+  }
+  .lista{
+    margin: 30px;
+    text-align: center;
+  }
+  .footer{
+   min-height: 5vh;
+   background-color:  rgb(37, 109, 173);
+   font-size: 20px;
+   color: white;
+   text-align: center;
+  }
+  
 
